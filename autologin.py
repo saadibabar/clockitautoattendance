@@ -53,3 +53,5 @@ driver.find_element_by_link_text ("Checkin"). click ()
 time.sleep(3)
 
 driver.find_element_by_id("snap").click()
+time.sleep(3)
+driver.close()
